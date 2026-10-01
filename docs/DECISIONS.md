@@ -16,3 +16,9 @@ Owner decisions that change scope, ownership or authority. Append new entries; d
 - **Decision:** make this repository private.
 - **Why:** the knowledge-pack digest exposes internal Drive references, machine paths, job IDs and an owner email.
 - **Status:** requested by the owner. Not confirmed from this session; whoever changes the setting should record the date here.
+
+## D-003 — Development moves to a private working copy (2026-10-01)
+
+- **Decision:** active development moves to `Apex-Blue-Collar/csms-field-claude` (private), with Claude as the builder of record. This repository stays as the original Grok-built prototype and is not changed further, apart from this note.
+- **Copy:** full git history up to `34d7ac2`, plus the build plan. Later decisions (D-004 onward) and the current build plan live in the copy.
+- **Status:** pending. The owner creates the empty private repository, then Claude pushes the copy. Until then, the plan v1 at commit `e0482a5` is the latest published version.
